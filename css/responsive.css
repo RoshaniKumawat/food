@@ -1,0 +1,738 @@
+@import url("./style.css");
+
+
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (max-width: 1400px) { 
+    
+    /*------banner------*/
+
+    .banner-img-box p{
+        margin: 13px 95px 0 95px;
+    }
+
+	/*------made-for-you------*/
+
+    .made-for-textbox-img-1 {
+   	    margin-left: 885px;
+    }
+}
+
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) {
+
+    /*------header------*/
+
+    .navbar-nav {
+        margin: 0 213px;
+    }
+    
+    /*------banner------*/
+
+    .imgbox-banner-a img {
+        padding: 0 6px;
+    }
+
+    .banner-img-box p{
+        margin: 13px 45px 0 45px;
+    }
+
+    .banner-contact h1 {
+        /*font-size: 105px;*/
+        margin: 0 -7px;
+    }
+
+    .banner-img-box img {
+        width: 480px;
+    }
+
+
+	/*------Recipes------*/
+
+    .about-img-box img {
+   	    width: 470px;
+    }
+
+    /*------made-for-you------*/
+
+    .made-for-textbox-img-1 {
+   	    margin-left: 685px;
+    }
+
+    .made-for-textbox h1 {
+    	font-size: 80px;
+    }
+
+    .made-for-textbox p {
+    	padding-left: 19px;
+        padding-right: 25px;
+    }
+}
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media (max-width: 991px) {
+
+    /*------header------*/
+
+    .form-inline {
+        justify-content: center;
+    }
+    
+    /*-----banner----*/
+
+    .banner-contact {
+    	padding: 0;
+    	text-align: center;
+    }
+
+    .banner-img-box p {
+        margin: 13px 225px 0 225px;
+    }
+
+    .banner-contact h1 {
+        /*font-size: 111px;*/
+        margin: 0 100px;
+    }
+
+    .banner-mar-box {
+    	width: 756px;
+        height: 173px;
+        margin: 74px auto;
+    }
+
+    /*------about------*/
+
+    .about-img-box {
+    	padding-left: 70px;
+    } 
+
+    .about-img-box img {
+    	width: 825px;
+        height: 470px;
+    }
+
+    /*------Recipes------*/
+
+    .rec-count {
+    	padding-left: 70px;
+        padding-bottom: 80px;
+    }
+
+    /*------meal-plans------*/
+
+    .meal-plans-contact h1 {
+    	font-size: 80px;
+    }
+    
+    .meal-plans-bg-img {
+        left: 250px;
+    }
+
+    .meal-plans-bg-img img {
+        padding-left: 208px;
+    }
+
+    .meal-plans-bg-img span {
+        margin: auto 255px auto auto;
+    }
+    
+    /*------say------*/
+    
+    .say-contact-box p {
+    	font-size: 16px;
+    }
+
+    .say-padding-box {
+        padding: 30px 85px;
+    }
+
+    /*------made-for-you-----*/
+    
+    .made-for-textbox-img-1 {
+        margin-left: 616px;
+        width: 360px;
+        height: 360px;
+    }
+
+    .made-for-textbox {
+        padding: 0 220px;
+    }
+
+    .made-for-textbox-img-2 {
+        width: 360px;
+        height: 360px;
+        margin-top: -320px;
+    }
+
+    /*------footer------*/
+
+    .footer-paddiing-box form input {
+    	width: 300px;
+    }
+
+    .padding-left {
+        padding-left: 90px;
+    }
+
+    .footer-two {
+        margin-top: 80px;
+    }
+
+    .footer-two-padd p {
+        text-align: center;
+    }
+
+    .footer-two-icon {
+        text-align: center;
+        padding-top: 16px;
+    }
+}
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { 
+
+    /*------banner------*/
+
+    .banner-mar-box {
+       width: 738px;
+       height: 176px;
+    }
+
+    .banner-img-box p {
+        margin: 13px 120px 0 120px;
+    }
+
+    .banner-contact h1 {
+        /* font-size: 111px; */
+        margin: 0 70px;
+    }
+
+    /*------about------*/
+
+    .about-img-box img {
+        height: 667px;
+        width: 496px;
+    }
+
+    /*------process------*/
+
+    .arow img {
+        padding: 30px 14px;
+    }
+    
+    /*------meal-plans------*/
+     
+    .meal-plans-contact {
+        margin: 84px 0;
+    } 
+
+    .meal-plans-contact h1 {
+        font-size: 70px;
+    }
+    
+    .meal-plans-contact p {
+        font-size: 16px;
+    }
+
+    .plan-btn-1 {
+        margin-bottom: 30px;
+    }
+
+    .meal-plans-imgbox img {
+        width: 550px;
+        height: 550px;
+    }
+
+    .meal-plans-bg-img {
+        left: 200px;
+        top: -172px;
+    }
+    
+    .meal-plans-bg-img img {
+        padding-left: 155px;
+        width: 184px;
+    }
+
+    .meal-plans-bg-img span {
+        font-size: 16px;
+        margin: auto 315px auto auto;
+    }
+
+    /*------say------*/
+
+    .say-padding-box {
+        padding: 30px 30px;
+    }
+
+    .say h1 {
+        font-size: 90px;
+    }
+
+    /*------made-for-you------*/
+
+    .made-for-textbox-img-1 {
+        margin-left: 453px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .made-for-textbox {
+        padding: 0 160px;
+    }
+
+    .made-for-textbox-img-2 {
+        width: 300px;
+        height: 300px;
+        margin-top: -260px;
+        margin-left: -140px;
+    }
+
+    .made-for-textbox h1 {
+        font-size: 64px;
+    }
+
+    .made-for-textbox p {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+}
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+
+    /*------banner------*/
+    
+    .banner-img-box {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .banner-img-box img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .banner-img-box p {
+        margin: 13px 40px 0 40px;
+    }
+
+    .banner-contact h1{
+        font-size: 100px;
+        margin: 0;
+    }
+
+    .banner-mar-box {
+        width: 535px;
+    }
+
+    /*------about------*/
+
+    .about-img-box, .about-countect-box {
+        padding-left: 0;
+    }
+
+    .about-countect-box h1 {
+        font-size: 110px;
+    }
+
+    .about-countect-box p {
+        margin-right: 0;
+        margin-left: 10px;
+    }
+
+    .order-img-1 img, .order-img-2 img {
+        width: 262px;
+    }
+
+    /*------process------*/
+    
+    .menu-headding-box h1 {
+        font-size: 88px;
+    }
+
+    .menu-padding-box-2 {
+        width: 500px;
+    }
+
+    .arow img {
+        position: absolute;
+        left: 472px;
+    }
+
+    /*------meal-plans------*/
+
+    .meal-plans-contact h1 {
+        font-size: 50px;
+    }
+    
+    .meal-plans-bg-img {
+        left: 135px;
+    }
+
+    .meal-plans-bg-img img {
+        padding-left: 125px;
+        width: 153px;
+        height: 85px;
+    }
+
+    .meal-plans-bg-img span {
+        margin: auto 345px auto auto;
+    }
+
+    /*------say------*/
+
+    .say h1 {
+        font-size: 80px;
+    }
+    
+    /*------made-for-you------*/
+
+    .made-for-textbox-img-1 {
+        margin-left: 360px;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .made-for-textbox {
+        padding: 0 54px;
+        padding-top: 130px;
+    }
+
+    .made-for-textbox h1 {
+        font-size: 65px;
+    }
+
+    .made-for-textbox p {
+        font-size: 16px;
+        padding: 0 18px;
+    }
+
+    .made-for-textbox-img-2 {
+        width: 200px;
+        height: 200px;
+        margin-top: -240px;
+    }
+
+    /*------footer------*/
+
+    .padding-left {
+        padding-left: 0px;
+    }
+
+    .footer-paddiing-box form input {
+        width: 258px;
+    }
+    
+}
+
+
+/*// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap*/
+@media (max-width: 425px) {
+    
+    /*------header------*/
+
+    .navbar-nav {
+        margin: 0;
+    }
+
+    /*------banner------*/
+
+    .banner-img-box img {
+        width: 395px;
+        height: 395px;
+    }
+
+    .banner-img-box p {
+        margin: 13px 0 0 0;
+    }
+
+    .banner-contact h1 {
+        font-size: 75px;
+    }
+
+    .banner-mar-box {
+        width: 395px;
+        display:none ;
+    }
+
+    .banner-btn-box {
+        margin-bottom: 27px;
+    }
+    
+    /*------menu------*/
+    
+    .menu-headding-box h1 {
+        font-size: 64px;
+    }
+
+    /*------about------*/
+
+    .about-img-box img {
+        width: 395px;
+        height: 470px;
+    }
+
+    .about-countect-box h1 {
+        font-size: 79px;
+    }
+
+    .about-countect-box p {
+        text-align: justify;
+    }
+
+    .order-img-1 img, .order-img-2 img {
+        width: 186px;
+    }
+
+    /*------process------*/
+
+    .menu-padding-box-2 {
+        width: 395px;
+    }
+
+    .arow {
+        display: none;
+    }
+
+    /*------meal-plans------*/
+    
+    .meal-plans {
+        padding-top: 100px;
+    }
+
+    .meal-plans-contact {
+        margin: 0;
+    }
+
+    .meal-plans-contact h1 {
+        font-size: 60px;
+    }
+    
+    .meal-plans-imgbox img {
+        width: 395px;
+        height: 395px;
+        margin-top: 100px;
+    } 
+
+    .meal-plans-bg-img {
+        height: 595px;
+        /*top: -85px;*/
+        top: 0;
+        left: 220px;
+    }
+
+    .meal-plans-bg-img img {
+        padding-left: 156px;
+        padding-top: 40px;
+        margin-bottom: 0;
+        width: 184px;
+        height: 58.16px;
+    }
+
+    .meal-plans-bg-img span {
+        margin: auto 315px auto auto;
+    }
+    
+    /*------say------*/
+
+    .say h1 {
+        font-size: 57px;
+    }
+    
+    /*------made-for-you------*/
+
+    .made-for-textbox-img-1 {
+        margin-left: 235px;
+        width: 175px;
+        height: 175px;
+    }
+
+    .made-for-textbox {
+        padding: 0 36px;
+        padding-top: 145px;
+    }
+
+    .made-for-textbox h1 {
+        font-size: 45px;
+    }
+
+    .made-for-textbox p {
+        padding: 0;
+        font-size: 13px;
+    }
+
+    .made-for-textbox-img-2 {
+        width: 150px;
+        height: 150px;
+        margin-top: -180px;
+        margin-left: -100px;
+    }
+
+    
+}
+
+
+@media (max-width: 320px) {
+
+    /*------header------*/
+
+    .navbar-nav {
+        margin: 0 100px;
+    }
+    
+    /*------banner------*/
+
+    .banner-img-box img {
+        width: 290px;
+        height: 290px;
+    }
+
+    .banner-img-box h6 {
+        font-size: 16px;
+    }
+
+    .banner-contact h1 {
+        font-size: 50px;
+    }
+    
+    .banner-btn-box .banner-btn-B {
+        margin: 27px 0;
+    }
+
+    .banner-mar-box {
+        display: none;
+    }
+    
+    /*------menu------*/
+    
+    .menu-headding-box h1 {
+        font-size: 45px;
+    }
+
+    .menu-img-box img {
+        width: 170px;
+        height: 170px;
+    }
+
+    .menu-padding-box h6 {
+        margin: 0 12px 20px;
+    }
+
+    .menu-padding-box p {
+        margin: 16px 0 0 0;
+        font-size: 16px;
+    }
+
+    /*------about------*/
+
+    .about-img-box img {
+        width: 290px;
+        height: 345px;
+    }
+    
+    .about-countect-box span {
+        font-size: 16px;
+    }
+
+    .about-countect-box h1 {
+        font-size: 55px;
+    }
+
+    .about-countect-box p {
+        font-size: 16px;
+    }
+
+    .order-img-1 img, .order-img-2 img {
+        width: 130px;
+    }
+
+    .order-btn button {
+        width: 110px;
+        font-size: 16px;
+    }
+    
+    /*------Recipes------*/
+
+    .rec-count {
+        padding-right: 0;
+    }
+
+    /*------process------*/
+
+    .menu-padding-box-2 {
+        width: 290px;
+    } 
+
+    .menu-padding-box-2 h6 {
+        font-size: 27px;
+    }
+
+    /*------meal-plans------*/
+
+    .meal-plans {
+        padding-top: 100px;
+    }
+
+    .meal-plans-contact {
+        margin: 0;
+    }
+
+    .meal-plans-contact h1 {
+        font-size: 58px;
+    }
+
+    .meal-plans-imgbox img {
+        width: 290px;
+        height: 290px;
+        margin-top: 100px;
+    }
+
+    .meal-plans-bg-img {
+        height: 492px;
+        top: -1px;
+        left: 155px;
+    }
+
+    .meal-plans-bg-img img {
+        padding-left: 135px;
+        width: 165px;
+    }
+    
+    /*------say------*/
+
+    .say h1 {
+        font-size: 42px;
+    }
+    
+    /*------made-for-you------*/
+
+    .made-for-textbox-img-1 {
+        margin-left: 130px;
+    }
+
+    .made-for-textbox h1 {
+        font-size: 30px;
+    }
+
+    .made-for-textbox p {
+        font-size: 10px;
+    }
+
+    .made-for-textbox {
+        padding: 0 45px;
+        padding-top: 145px;
+    }
+
+    .made-for-btn button {
+        width: 198px;
+    }
+
+    .made-for-btn button a {
+        font-size: 16px;
+    }
+}
